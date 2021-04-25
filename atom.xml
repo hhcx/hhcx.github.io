@@ -297,15 +297,15 @@
     <link href="https://www.mls-tech.info/mac/mac-open-sublime-text-from-terminal/"/>
     <id>https://www.mls-tech.info/mac/mac-open-sublime-text-from-terminal/</id>
     <published>2021-01-01T06:59:55.000Z</published>
-    <updated>2021-04-16T07:48:48.079Z</updated>
+    <updated>2021-04-25T03:59:30.738Z</updated>
     
-    <content type="html"><![CDATA[<p>Sublime Text 是 Mac 上非常受欢迎的文本编辑器。 有时候，我们希望能直接从终端 （Terminal）里直接启动它，要完成这个设定，只需要为 Sublime Text 应用的启动程序 subl 在 PATH 路径中添加一个软链接即可。</p><p>比如我的是 Sublime Text 2， 该软件安装在 “/Applications/Sublime Text 2.app” 目录中。因此，我们只需要执行以下的命令:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/bin/subl</span><br></pre></td></tr></table></figure><p>这是为 subl 在 /usr/bin 目录中建立一个软链接。</p><p>如果权限不允许，也可以将软链接建立在用户的 PATH 路径中。</p>]]></content>
+    <content type="html"><![CDATA[<p>Sublime Text 是 Mac 上非常受欢迎的文本编辑器。 有时候，我们希望能直接从终端 （Terminal）里直接启动它，要完成这个设定，只需要为 Sublime Text 应用的启动程序 subl 在 PATH 路径中添加一个软链接即可。</p><h2 id="Sublime-Text-2"><a href="#Sublime-Text-2" class="headerlink" title="Sublime Text 2"></a>Sublime Text 2</h2><p>比如我的是 Sublime Text 2， 该软件安装在 “/Applications/Sublime Text 2.app” 目录中。因此，我们只需要执行以下的命令:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/<span class="built_in">local</span>/bin/subl</span><br></pre></td></tr></table></figure><h2 id="Sublime-Text-3"><a href="#Sublime-Text-3" class="headerlink" title="Sublime Text 3"></a>Sublime Text 3</h2><p>Sublime Text 3 的目录有些改动，可以使用下面的命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/<span class="built_in">local</span>/bin/subl</span><br></pre></td></tr></table></figure><p>这是为 subl 在 /usr/bin 目录中建立一个软链接。</p><p>如果权限不允许，也可以将软链接建立在用户的 PATH 路径中。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Sublime Text 是 Mac 上非常受欢迎的文本编辑器。 有时候，我们希望能直接从终端 （Terminal）里直接启动它，要完成这个设定，只需要为 Sublime Text 应用的启动程序 subl 在 PATH 路径中添加一个软链接即可。&lt;/p&gt;&lt;p&gt;比如我的是 
+        &lt;p&gt;Sublime Text 是 Mac 上非常受欢迎的文本编辑器。 有时候，我们希望能直接从终端 （Terminal）里直接启动它，要完成这个设定，只需要为 Sublime Text 应用的启动程序 subl 在 PATH 路径中添加一个软链接即可。&lt;/p&gt;&lt;h2 id=&quot;S
       
     
     </summary>
