@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.mls-tech.info/"/>
-  <updated>2021-06-28T00:16:00.925Z</updated>
+  <updated>2021-07-02T22:59:57.727Z</updated>
   <id>https://www.mls-tech.info/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Access Synology NAS via NFS client in Ubunt 18.04</title>
+    <link href="https://www.mls-tech.info/linux/ubuntu-18-nfs-client_en/"/>
+    <id>https://www.mls-tech.info/linux/ubuntu-18-nfs-client_en/</id>
+    <published>2021-07-02T22:56:57.000Z</published>
+    <updated>2021-07-02T22:59:57.727Z</updated>
+    
+    <content type="html"><![CDATA[<p>Nowadays, more and more families use NAS. Most NAS systems provide multiple file sharing methods. This article records how to configure Ubuntu 18.04 clients to access Synology NAS shared files.</p><a id="more"></a><h2 id="Configure-NFS-shared-files-on-the-NAS"><a href="#Configure-NFS-shared-files-on-the-NAS" class="headerlink" title="Configure NFS shared files on the NAS"></a>Configure NFS shared files on the NAS</h2><p>The following records are the configuration steps on Synology NAS, other systems should be similar. The static IP address of the NAS is: 192.168.1.100</p><p>Log in to the web management interface of Synology NAS, select “Control Panel” -&gt; “Shared Folder”, then select the directory you want to configure (share), click “Edit”, and select “NFS Permissions” in the pop-up dialog box.</p><p>If NFS has not been configured before, the table here is blank. Select “Create” to add a rule. Fill in the relevant configuration information in a pop-up window. It should be noted here that it is recommended to select the “Squash” option as: “Map all users to guest” and check “enable asynchronous”. To simplify the configuration of the subsequent client.</p><h2 id="Install-and-set-up-the-client"><a href="#Install-and-set-up-the-client" class="headerlink" title="Install and set up the client"></a>Install and set up the client</h2><p>First, execute the following command on the Ubuntu 18.04 machine to install the NFS Client.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install nfs-common</span><br></pre></td></tr></table></figure><p>After installation, we can use the “showmount” command to view the shared NFS files on the specified machine (IP address). such as:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">showmount -e 192.168.1.100</span><br></pre></td></tr></table></figure><p>You can see the folder shared on the NAS just now.</p><p>If you need to access a folder on the NAS, you first need to mount the shared folder locally.</p><p>First create a folder locally, for example, create a folder named nfs_music</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /mnt/nfs_music</span><br></pre></td></tr></table></figure><p>Then execute the following command to mount:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t nfs 192.168.1.100:/volume1/music /mnt/nfs_music</span><br></pre></td></tr></table></figure><p>“/volume1/music” is the directory of the shared folder on the NAS.</p><p>To view the effect of mounting, you can use the df -h command</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -h</span><br></pre></td></tr></table></figure><p>You will get system output similar to the following:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Filesystem                        Size  Used Avail Use% Mounted on</span><br><span class="line">udev                              967M     0  967M   0% /dev</span><br><span class="line">tmpfs                             200M  1.1M  199M   1% /run</span><br><span class="line">/dev/sda2                         5.9G  3.1G  2.6G  55% /</span><br><span class="line">tmpfs                             997M     0  997M   0% /dev/shm</span><br><span class="line">tmpfs                             5.0M     0  5.0M   0% /run/lock</span><br><span class="line">tmpfs                             997M     0  997M   0% /sys/fs/cgroup</span><br><span class="line">/dev/loop0                         89M   89M     0 100% /snap/core/7270</span><br><span class="line">/dev/loop1                         92M   92M     0 100% /snap/core/8689</span><br><span class="line">192.168.1.100:/volume1/music      1.0T  1.0T  307G  70% /mnt/nfs_music</span><br><span class="line">tmpfs                             200M     0  200M   0% /run/user/1000</span><br></pre></td></tr></table></figure><h2 id="Set-to-automatically-mount-NFS-at-boot"><a href="#Set-to-automatically-mount-NFS-at-boot" class="headerlink" title="Set to automatically mount NFS at boot"></a>Set to automatically mount NFS at boot</h2><p>After performing the above steps, if you restart the client machine, you need to execute the mount command again to mount the NFS shared directory. If you want to mount the NFS shared directory automatically at boot, you need to edit the /etc/fstab file and execute:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/fstab</span><br></pre></td></tr></table></figure><p>Add the following line at the end of the file:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">192.168.1.100:/volume1/music /mnt/nfs_music nfs defaults,timeo=900,retrans=5,_netdev 0 0</span><br></pre></td></tr></table></figure><p>Replace the corresponding content in the command with your IP address and directory name. After editing, save and exit. In this way, the NFS shared directory can be mounted automatically when the machine is restarted.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Nowadays, more and more families use NAS. Most NAS systems provide multiple file sharing methods. This article records how to configure Ubuntu 18.04 clients to access Synology NAS shared files.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://www.mls-tech.info/categories/linux/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Record the screen of the iOS simulator</title>
@@ -479,28 +499,6 @@
     
     
       <category term="java" scheme="https://www.mls-tech.info/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nginx 的反向代理设置(四)</title>
-    <link href="https://www.mls-tech.info/nginx/nginx-setup-proxy-04/"/>
-    <id>https://www.mls-tech.info/nginx/nginx-setup-proxy-04/</id>
-    <published>2020-12-19T02:28:46.000Z</published>
-    <updated>2021-04-16T07:48:48.082Z</updated>
-    
-    <content type="html"><![CDATA[<p>在 <a href="/nginx/nginx-setup-proxy-03/" title="Nginx 的反向代理设置(三)">Nginx 的反向代理设置(三)</a> 中，我们演示了一个如何将 Nginx 设置为内网服务的反向代理服务器和负载均衡服务器。 本文将进一步扩展案例，为负载均衡选择不同的负载分派策略。</p><a id="more"></a><h2 id="轮询策略"><a href="#轮询策略" class="headerlink" title="轮询策略"></a>轮询策略</h2><p>Nginx 的负载均衡默认的策略就是轮询策略。因此当我们采用默认设置，如:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">upstream testapp &#123;</span><br><span class="line">server app1:8080;</span><br><span class="line">server app2:8080;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>客户端发起的请求轮流由 app1 和 app2 来进行处理。</p><h2 id="加权轮询"><a href="#加权轮询" class="headerlink" title="加权轮询"></a>加权轮询</h2><p>如果我们后端服务的处理能力不同，比如 app2 的处理能力要远高于 app1, 那这个时候用上面说到的简单轮询策略就不合适了。这个时候可以采用加权轮询的方法，将 app2 的权重增加，让它多处理一些客户的请求。 配置如下:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">upstream testapp &#123;</span><br><span class="line">server app1:8080 weight=1;</span><br><span class="line">server app2:8080 weight=9;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="IP地址Hash"><a href="#IP地址Hash" class="headerlink" title="IP地址Hash"></a>IP地址Hash</h2><p>如果我们希望来自同一个 IP 的客户端请求尽可能的再同一台后端服务中被处理。这时我们可以采用 IP 地址 Hash 的策略，通过计算客户的 IP 地址的哈希值，然后在将哈希值映射（通常为取模的方法）为某一台后端服务器。这样，当客户的 IP 的不变是，总能由后端的同一台服务器来处理该客户端的请求。 配置如下:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">upstream testapp &#123;</span><br><span class="line">ip_hash;</span><br><span class="line">server app1:8080;</span><br><span class="line">server app2:8080;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在 &lt;a href=&quot;/nginx/nginx-setup-proxy-03/&quot; title=&quot;Nginx 的反向代理设置(三)&quot;&gt;Nginx 的反向代理设置(三)&lt;/a&gt; 中，我们演示了一个如何将 Nginx 设置为内网服务的反向代理服务器和负载均衡服务器。 本文将进一步扩展案例，为负载均衡选择不同的负载分派策略。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Nginx" scheme="https://www.mls-tech.info/categories/nginx/"/>
-    
-    
-      <category term="Nginx" scheme="https://www.mls-tech.info/tags/nginx/"/>
     
   </entry>
   
