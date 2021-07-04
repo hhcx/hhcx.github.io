@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.mls-tech.info/"/>
-  <updated>2021-07-03T22:52:10.338Z</updated>
+  <updated>2021-07-04T21:38:20.867Z</updated>
   <id>https://www.mls-tech.info/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to check the version of Pandas</title>
+    <link href="https://www.mls-tech.info/python/python-pandas-version_en/"/>
+    <id>https://www.mls-tech.info/python/python-pandas-version_en/</id>
+    <published>2021-07-04T21:22:39.000Z</published>
+    <updated>2021-07-04T21:38:20.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>When using panda for data processing, some functions may be obsolete in some versions. To solve this problem, you need to know the version number in the current environment. How to check the version number of pandas?</p><a id="more"></a><h2 id="Use-version-Variable"><a href="#Use-version-Variable" class="headerlink" title="Use version Variable"></a>Use <strong>version</strong> Variable</h2><p>In pandas, there is a <strong>version</strong> variable that directly records the current version number.</p><p>Run the following code and output the version number. In my environment, the version of pandas is: 0.24.2</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> (pd.__version__)</span><br></pre></td></tr></table></figure><h2 id="Use-show-versions-function"><a href="#Use-show-versions-function" class="headerlink" title="Use show_versions function"></a>Use show_versions function</h2><p>The show_versions function in pandas can display the version numbers of pandas and related dependent libraries. The code is as follows:</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> (pd.show_versions())</span><br></pre></td></tr></table></figure><p>Will output something similar to the following:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">INSTALLED VERSIONS</span><br><span class="line">------------------</span><br><span class="line">commit: None</span><br><span class="line">python: 3.7.3.final.0</span><br><span class="line">python-bits: 64</span><br><span class="line">OS: Windows</span><br><span class="line">OS-release: 10</span><br><span class="line">machine: AMD64</span><br><span class="line">processor: Intel64 Family 6 Model 60 Stepping 3, GenuineIntel</span><br><span class="line">byteorder: little</span><br><span class="line">LC_ALL: None</span><br><span class="line">LANG: zh_CN.UTF-8</span><br><span class="line">LOCALE: None.None</span><br><span class="line"></span><br><span class="line">pandas: 0.24.2</span><br><span class="line">pytest: 4.3.1</span><br><span class="line">pip: 19.0.3</span><br><span class="line">setuptools: 40.8.0</span><br><span class="line">Cython: 0.29.6</span><br><span class="line">numpy: 1.16.2</span><br><span class="line">scipy: 1.2.1</span><br><span class="line">pyarrow: None</span><br><span class="line">xarray: None</span><br><span class="line">IPython: 7.4.0</span><br><span class="line">sphinx: 1.8.5</span><br><span class="line">patsy: 0.5.1</span><br><span class="line">dateutil: 2.8.0</span><br><span class="line">pytz: 2018.9</span><br><span class="line">blosc: None</span><br><span class="line">bottleneck: 1.2.1</span><br><span class="line">tables: 3.5.1</span><br><span class="line">numexpr: 2.6.9</span><br><span class="line">feather: None</span><br><span class="line">matplotlib: 3.0.3</span><br><span class="line">openpyxl: 2.6.1</span><br><span class="line">xlrd: 1.2.0</span><br><span class="line">xlwt: 1.3.0</span><br><span class="line">xlsxwriter: 1.1.5</span><br><span class="line">lxml.etree: 4.3.2</span><br><span class="line">psycopg2: None</span><br><span class="line">jinja2: 2.10</span><br><span class="line">s3fs: None</span><br><span class="line">fastparquet: None</span><br><span class="line">pandas_gbq: None</span><br><span class="line">pandas_datareader: None</span><br><span class="line">gcsfs: None</span><br></pre></td></tr></table></figure><h2 id="Use-pip-list"><a href="#Use-pip-list" class="headerlink" title="Use pip list"></a>Use pip list</h2><p>If you use pip as a package management tool, you can also use the pip list command, which will output the names and version numbers of all packages in the current environment.</p><p>Of course, if you are using a Unix-like system, you can also use grep to control the output for easy viewing, such as:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip list | grep pandas</span><br><span class="line">pandas    0.24.2</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;When using panda for data processing, some functions may be obsolete in some versions. To solve this problem, you need to know the version number in the current environment. How to check the version number of pandas?&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Python" scheme="https://www.mls-tech.info/categories/python/"/>
+    
+    
+      <category term="Python" scheme="https://www.mls-tech.info/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>Run cocoapod on Apple M1 computer</title>
@@ -480,28 +502,6 @@
     
     
       <category term="时间的力量" scheme="https://www.mls-tech.info/tags/power-of-time/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>获取 Maven 项目中 resources 目录的绝对地址</title>
-    <link href="https://www.mls-tech.info/java/java-get-resource-path/"/>
-    <id>https://www.mls-tech.info/java/java-get-resource-path/</id>
-    <published>2020-12-21T01:43:10.000Z</published>
-    <updated>2021-04-16T07:48:48.071Z</updated>
-    
-    <content type="html"><![CDATA[<p>如何获取 resouces 目录中的某个具体文件，网上已经有很多文章进行了说明。但有时候我们需要获取 resouces <strong>目录</strong>的绝对地址，比如在使用 FreeMarker 模板引擎时，需要设置模板加载的目录。本文就介绍三种方法。</p><a id="more"></a><ol><li>通过相对目录和 File API 获取</li></ol><p>代码如下:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String path = <span class="string">"src/main/resources/templates"</span>;</span><br><span class="line">File folder = <span class="keyword">new</span> File(path);</span><br></pre></td></tr></table></figure><ol start="2"><li>通过相对目录和 Java 7 以后的 Path API 获取</li></ol><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Path templateFolder = Paths.get(<span class="string">"src"</span>, <span class="string">"main"</span>, <span class="string">"resources"</span>, <span class="string">"templates"</span>);</span><br><span class="line">templateFolder.toFile()</span><br></pre></td></tr></table></figure><ol start="3"><li>通过指定特定文件间接获取</li></ol><p>通过 resouces 中一个具体文件来间接获取。例如: 我们在 resources 目录下放一个名为 logback.xml 的文件，使用下面的代码</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String resouceName = <span class="string">"logback.xml"</span>;</span><br><span class="line">ClassLoader classLoader = getClass().getClassLoader();</span><br><span class="line">File file = <span class="keyword">new</span> File(classLoader.getResource(resouceName).getFile());</span><br></pre></td></tr></table></figure><p>最终，通过 file.getParent()， 我们可以获取该文件所在目录(也就是 resources 目录的)的绝对地址， 通过 file.file.getParentFile() 可以获取 resources 目录的文件句柄。</p><p><strong>最后一种方法因为没有硬编码 “src”, “main”, “resources” 这些变量，因此无论在开发阶段还是在运行阶段都可以使用，是推荐的用法</strong></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如何获取 resouces 目录中的某个具体文件，网上已经有很多文章进行了说明。但有时候我们需要获取 resouces &lt;strong&gt;目录&lt;/strong&gt;的绝对地址，比如在使用 FreeMarker 模板引擎时，需要设置模板加载的目录。本文就介绍三种方法。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="java" scheme="https://www.mls-tech.info/categories/java/"/>
-    
-    
-      <category term="java" scheme="https://www.mls-tech.info/tags/java/"/>
     
   </entry>
   
