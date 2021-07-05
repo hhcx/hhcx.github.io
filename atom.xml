@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.mls-tech.info/"/>
-  <updated>2021-07-04T21:38:20.867Z</updated>
+  <updated>2021-07-05T22:26:07.527Z</updated>
   <id>https://www.mls-tech.info/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to remove library previously installed in cocoapod</title>
+    <link href="https://www.mls-tech.info/app/swift/how-to-remove-library-previously-installed-in-cocoapod_en/"/>
+    <id>https://www.mls-tech.info/app/swift/how-to-remove-library-previously-installed-in-cocoapod_en/</id>
+    <published>2021-07-05T22:30:08.000Z</published>
+    <updated>2021-07-05T22:26:07.527Z</updated>
+    
+    <content type="html"><![CDATA[<p>To remove the libraray from cocoapod workspace, you can do following actions:</p><ol><li>Edit the Podfile of your project, Delete the line of the library you want to delete</li><li>Execute the following command:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod update</span><br></pre></td></tr></table></figure><p>if you use apple m1, execute:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">arch -x86_64 pod update</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;To remove the libraray from cocoapod workspace, you can do following actions:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Edit the Podfile of your project, Delete the lin
+      
+    
+    </summary>
+    
+      <category term="App开发" scheme="https://www.mls-tech.info/categories/app/"/>
+    
+    
+      <category term="移动开发" scheme="https://www.mls-tech.info/tags/app/"/>
+    
+  </entry>
   
   <entry>
     <title>How to check the version of Pandas</title>
@@ -43,7 +68,7 @@
     <link href="https://www.mls-tech.info/app/swift/ios-cocoapod-in-apple-m1_en/"/>
     <id>https://www.mls-tech.info/app/swift/ios-cocoapod-in-apple-m1_en/</id>
     <published>2021-07-03T22:30:08.000Z</published>
-    <updated>2021-07-03T22:52:10.338Z</updated>
+    <updated>2021-07-05T22:19:28.695Z</updated>
     
     <content type="html"><![CDATA[<p>Cocoapod is a commonly used package management tool in iOS development. However, if you use this tool on a computer with Apple M1 chip, you may encounter some problems. For example, the following error：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Library/Ruby/Gems/2.6.0/gems/ffi-1.15.3/lib/ffi/library.rb:275: [BUG] Bus Error at 0x0000000100320000</span><br></pre></td></tr></table></figure><p>This is actually caused by the fact that CocoaPod is not fully compatible with Apple M1. To avoid this, you need：</p><ol><li>Need to be executed during installation</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gem install cocoapods</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo arch -x86_64 gem install ffi</span><br></pre></td></tr></table></figure><ol start="2"><li>Needed every time</li></ol><p>you should use <strong>‘arch -x86_64 pod install’ instead of ‘pod install’</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">arch -x86_64 pod install</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -475,33 +500,6 @@
     
     
       <category term="mac" scheme="https://www.mls-tech.info/tags/mac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>太极锻炼1000天, 第546天</title>
-    <link href="https://www.mls-tech.info/health/tai-chi-20201222/"/>
-    <id>https://www.mls-tech.info/health/tai-chi-20201222/</id>
-    <published>2020-12-22T00:08:43.000Z</published>
-    <updated>2021-04-16T07:48:48.068Z</updated>
-    
-    <content type="html"><![CDATA[<p>从今天开始正式恢复锻炼，今天跟着拳友们把套路练习了一遍，勉强打完，但左脚长期不锻炼，有点吃不上劲，很多动作做得不标准，看来后面要加强左脚的力量训练才行。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;从今天开始正式恢复锻炼，今天跟着拳友们把套路练习了一遍，勉强打完，但左脚长期不锻炼，有点吃不上劲，很多动作做得不标准，看来后面要加强左脚的力量训练才行。&lt;/p&gt;
-      
-    
-    </summary>
-    
-      <category term="时间的力量" scheme="https://www.mls-tech.info/categories/power-of-time/"/>
-    
-      <category term="锻炼身体" scheme="https://www.mls-tech.info/categories/power-of-time/health/"/>
-    
-    
-      <category term="时间的力量" scheme="https://www.mls-tech.info/tags/power-of-time/"/>
     
   </entry>
   
