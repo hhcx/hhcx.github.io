@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.mls-tech.info/"/>
-  <updated>2021-07-12T07:16:28.798Z</updated>
+  <updated>2021-07-13T00:50:49.896Z</updated>
   <id>https://www.mls-tech.info/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Setup Jellyfin on Ubuntu</title>
+    <link href="https://www.mls-tech.info/linux/ubuntu-18-setup-jellyfin_en/"/>
+    <id>https://www.mls-tech.info/linux/ubuntu-18-setup-jellyfin_en/</id>
+    <published>2021-07-13T00:41:36.000Z</published>
+    <updated>2021-07-13T00:50:49.896Z</updated>
+    
+    <content type="html"><![CDATA[<p>Jellyfin is an open source streaming media server that can run on multiple platforms. It can be said to be a fully open source alternative to the well-known streaming media server Plex Server (Plex has many features that require a fee). This article simply records the process of installing Jellyfin in Ubuntu Server 18.04.</p><a id="more"></a><h2 id="Add-Jeffyfin’s-official-source"><a href="#Add-Jeffyfin’s-official-source" class="headerlink" title="Add Jeffyfin’s official source"></a>Add Jeffyfin’s official source</h2><p>First, join the official source of Jeffyfin. Execute the following commands in sequence:</p><ol><li>Install HTTPS support for apt tool</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install apt-transport-https -y</span><br></pre></td></tr></table></figure><ol start="2"><li>Download and install the certificate of Jeffyfin official source</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O - https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | sudo apt-key add -</span><br></pre></td></tr></table></figure><p>The system displays as follows:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">--2020-03-05 08:01:04--  https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key</span><br><span class="line">Resolving repo.jellyfin.org (repo.jellyfin.org)... 68.183.204.194, 2604:a880:cad:d0::cf3:f001</span><br><span class="line">Connecting to repo.jellyfin.org (repo.jellyfin.org)|68.183.204.194|:443... connected.</span><br><span class="line">HTTP request sent, awaiting response... 200 OK</span><br><span class="line">Length: 2456 (2.4K) [application/octet-stream]</span><br><span class="line">Saving to: ‘STDOUT’</span><br><span class="line"></span><br><span class="line">-                                             100%[==============================================================================================&gt;]   2.40K  --.-KB/s    <span class="keyword">in</span> 0s      </span><br><span class="line"></span><br><span class="line">2020-03-05 08:01:07 (307 MB/s) - written to stdout [2456/2456]</span><br><span class="line"></span><br><span class="line">OK</span><br></pre></td></tr></table></figure><ol start="3"><li>Join the official source</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"deb [arch=<span class="variable">$( dpkg --print-architecture )</span>] https://repo.jellyfin.org/ubuntu <span class="variable">$( lsb_release -c -s )</span> main"</span> | sudo tee /etc/apt/sources.list.d/jellyfin.list</span><br></pre></td></tr></table></figure><p>System will show:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deb [arch=amd64] https://repo.jellyfin.org/ubuntu bionic main</span><br></pre></td></tr></table></figure><p>Then execute to update</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure><h2 id="Install-and-start"><a href="#Install-and-start" class="headerlink" title="Install and start"></a>Install and start</h2><p>Execute the following command to install:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install jellyfin -y</span><br></pre></td></tr></table></figure><p>This process will download Jellyfin and related media encoding libraries, etc. If the network is slow, it will still take a long time.</p><p>After installation, set it to boot up:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl <span class="built_in">enable</span> jellyfin.service</span><br></pre></td></tr></table></figure><p>System will show:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Synchronizing state of jellyfin.service with SysV service script with /lib/systemd/systemd-sysv-install.</span><br><span class="line">Executing: /lib/systemd/systemd-sysv-install <span class="built_in">enable</span> jellyfin</span><br></pre></td></tr></table></figure><p>Now, startup Jellyfin:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start jellyfin.service</span><br></pre></td></tr></table></figure><p>Then you can open a browser from another machine (same as the LAN, my server IP address is: 192.168.1.90), visit Jellyfin’s management interface, and perform initial settings</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://192.168.1.90:8096/</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Jellyfin is an open source streaming media server that can run on multiple platforms. It can be said to be a fully open source alternative to the well-known streaming media server Plex Server (Plex has many features that require a fee). This article simply records the process of installing Jellyfin in Ubuntu Server 18.04.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://www.mls-tech.info/categories/linux/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Enable the remote access of MariaDB in Synology NAS</title>
@@ -455,32 +475,6 @@
     <summary type="html">
     
       &lt;p&gt;在 &lt;a href=&quot;/app/swift/swift-tutorial-2-variable-const/&quot; title=&quot;Swift 语言简明教程(二) - 变量与常量&quot;&gt;Swift 语言简明教程(二) - 变量与常量&lt;/a&gt; 中，我们了解了 Swift 的变量与常量定义，这次我们来了解一下 Swift 中的控制语句。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="App开发" scheme="https://www.mls-tech.info/categories/app/"/>
-    
-      <category term="Swift" scheme="https://www.mls-tech.info/categories/app/swift/"/>
-    
-    
-      <category term="移动开发" scheme="https://www.mls-tech.info/tags/app/"/>
-    
-      <category term="Swift" scheme="https://www.mls-tech.info/tags/swift/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Swift 语言简明教程(二) - 变量与常量</title>
-    <link href="https://www.mls-tech.info/app/swift/swift-tutorial-2-variable-const/"/>
-    <id>https://www.mls-tech.info/app/swift/swift-tutorial-2-variable-const/</id>
-    <published>2021-04-13T06:37:00.000Z</published>
-    <updated>2021-04-16T07:48:48.055Z</updated>
-    
-    <content type="html"><![CDATA[<p>在 <a href="/app/swift/swift-tutorial-1-basic-datatype/" title="Swift 语言简明教程(一) - 数据类型">Swift 语言简明教程(一) - 数据类型</a> 中，我们了解了 Swift 的内置数据类型，这次我们来了解一下 Swift 中的变量和常量。</p><a id="more"></a><p>Swift 相较于其它高级语言来说很重要一个的特点就是类型推断，体现在程序中就是定义变量或常量时通常可以不指定其数据类型，而让编译系统根据上下文进行推断。</p><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>Swift 中变量的定义使用关键字 “var”，如:</p><p>声明定义了三个变量 整数类型变量a 浮点数类型变量b 字符串类型变量c， 都不需要指明类型，而让编译系统进行类型推断</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a=<span class="number">1</span>,b=<span class="number">2.9</span>,<span class="built_in">c</span>=<span class="string">"string"</span></span><br></pre></td></tr></table></figure><p>当然，也可以分成三个定义:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a=<span class="number">1</span></span><br><span class="line"><span class="keyword">var</span> b=<span class="number">2.9</span></span><br><span class="line"><span class="keyword">var</span> <span class="built_in">c</span>=<span class="string">"string"</span></span><br></pre></td></tr></table></figure><p><strong>注意，在 Swift 不需要在语句后面跟分号(“;”)来表示语句结束，除非你需要在一行写多条语句</strong></p><p>在 Swift 中，变量名可以采用除关键字外的各种字符，因此，可以向下面这样来定义变量:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//使用中文进行变量的命名</span></span><br><span class="line"><span class="keyword">var</span> 变量 = <span class="string">"变量"</span></span><br><span class="line"><span class="comment">//使用表情符号进行命名</span></span><br><span class="line"><span class="keyword">var</span> 😄 = <span class="string">"开心"</span></span><br><span class="line"><span class="comment">//用预留关键字进行命名</span></span><br><span class="line"><span class="keyword">var</span> `<span class="keyword">var</span>` = <span class="number">2</span></span><br></pre></td></tr></table></figure><p>当然，如果需要，你也可以为每一个变量显式指定其数据类型，如:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a:<span class="type">Int</span>=<span class="number">1</span>,b:<span class="type">Float</span>=<span class="number">2.9</span>,<span class="built_in">c</span>:<span class="type">String</span>=<span class="string">"string"</span></span><br></pre></td></tr></table></figure><p>因为指定了类型，也可以不给定初值</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> one,two,three:<span class="type">Int</span></span><br></pre></td></tr></table></figure><h2 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h2><p>在 swift 中，使用 “let” 关键字来定义常量。如:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> x1 = <span class="number">1</span>, x2 = <span class="number">2.9</span>, x3 = <span class="string">"hello"</span></span><br></pre></td></tr></table></figure><p>常量，当然是不能在程序中再修改其值，因此必须在定义是赋予初值。当然，也可以显式的指定数据类型，如:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> x1:<span class="type">Int</span> = <span class="number">1</span>, x2:<span class="type">Float</span> = <span class="number">2.9</span>, x3:<span class="type">String</span> = <span class="string">"hello"</span></span><br></pre></td></tr></table></figure><h2 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h2><p>接下来，我们将简要的介绍 Swift 中的控制语句 <a href="/app/swift/swift-tutorial-3-control-flow/" title="Swift 语言简明教程(三) - 控制语句">Swift 语言简明教程(三) - 控制语句</a>。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在 &lt;a href=&quot;/app/swift/swift-tutorial-1-basic-datatype/&quot; title=&quot;Swift 语言简明教程(一) - 数据类型&quot;&gt;Swift 语言简明教程(一) - 数据类型&lt;/a&gt; 中，我们了解了 Swift 的内置数据类型，这次我们来了解一下 Swift 中的变量和常量。&lt;/p&gt;
     
     </summary>
     
