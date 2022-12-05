@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.mls-tech.info/"/>
-  <updated>2022-09-15T06:14:59.124Z</updated>
+  <updated>2022-12-05T01:20:15.934Z</updated>
   <id>https://www.mls-tech.info/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为Putty设置默认字体大小</title>
+    <link href="https://www.mls-tech.info/tools/putty-set-default-fonts-size/"/>
+    <id>https://www.mls-tech.info/tools/putty-set-default-fonts-size/</id>
+    <published>2022-12-05T00:51:17.000Z</published>
+    <updated>2022-12-05T01:20:15.934Z</updated>
+    
+    <content type="html"><![CDATA[<p>WinScp与Putty的组合是在Windows平台上非常好用的远程SSH工具, Winscp可以方便的阻止对远程主机配置信息的管理及文件传输，Putty 负责远程登录及主机上的操作。但Putty默认的字体大小为 “10-point”，在现在高分辨屏幕下看起来太小了，非常打开以后都要再次设置大小，感觉非常繁琐，麻烦。最近找到了设置Putty默认字体大小的方法，记录一下，免得以后忘掉:</p><ol><li><p>直接运行 Putty 应用，看到的就是”Putty Configuration”窗口，选择 “Appearance”</p></li><li><p>再选择 “Font Settings” 中的 “Change…”按钮，选择适合的字体及字体大小并确认（如下图）</p></li></ol><p><img src="/images/tools/putty-set-default-font-size-01.png" alt="Putty Change default Font size"></p><ol start="3"><li>这一步最关键，选择 “Session”, 然后选择 “Default Settings”, 按下 “Save”按钮，将刚才的选择保存为默认设置（如下图）</li></ol><p><img src="/images/tools/putty-set-default-font-size-02.png" alt="Putty Save Default Configuration"></p><p>完成上述步骤后，再从 Winscp中打开新的Putty时，使用的就是默认设置的字体了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;WinScp与Putty的组合是在Windows平台上非常好用的远程SSH工具, Winscp可以方便的阻止对远程主机配置信息的管理及文件传输，Putty 负责远程登录及主机上的操作。但Putty默认的字体大小为 “10-point”，在现在高分辨屏幕下看起来太小了，非常打
+      
+    
+    </summary>
+    
+      <category term="tools" scheme="https://www.mls-tech.info/categories/tools/"/>
+    
+    
+      <category term="win-tools" scheme="https://www.mls-tech.info/tags/win-tools/"/>
+    
+  </entry>
   
   <entry>
     <title>解决在minikube中发布Service, 本地访问失败的问题</title>
@@ -483,26 +508,6 @@
     
     
       <category term="java" scheme="https://www.mls-tech.info/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to install Jenkins on Ubuntu 20.04</title>
-    <link href="https://www.mls-tech.info/linux/ubuntu-20-setup-jenkins-en/"/>
-    <id>https://www.mls-tech.info/linux/ubuntu-20-setup-jenkins-en/</id>
-    <published>2022-01-18T04:25:19.000Z</published>
-    <updated>2022-01-18T04:55:24.248Z</updated>
-    
-    <content type="html"><![CDATA[<p>This article demonstrates how to install the Jenkins server in Ubuntu 20.04.</p><a id="more"></a><h2 id="Install-JDK"><a href="#Install-JDK" class="headerlink" title="Install JDK"></a>Install JDK</h2><p>First, the JDK needs to be installed, in this article, we choose to install openjdk 11.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install openjdk-11-jdk</span><br></pre></td></tr></table></figure><p>After the installation is completed, we can execute the following command to confirm that the installation was successful.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure><p>If successful, the system displays the following information:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">openjdk version <span class="string">"11.0.13"</span> 2021-10-19</span><br><span class="line">OpenJDK Runtime Environment (build 11.0.13+8-Ubuntu-0ubuntu1.20.04)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 11.0.13+8-Ubuntu-0ubuntu1.20.04, mixed mode, sharing)</span><br></pre></td></tr></table></figure><h2 id="Install-Jenkins"><a href="#Install-Jenkins" class="headerlink" title="Install Jenkins"></a>Install Jenkins</h2><p>We will use the Jenkins APT repository, import the source GPGkey, and install the Jenkins package.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -</span><br></pre></td></tr></table></figure><p>To add a software source to the system:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c <span class="string">'echo deb http://pkg.jenkins.io/debian-stable binary/ &gt; /etc/apt/sources.list.d/jenkins.list'</span></span><br></pre></td></tr></table></figure><p>Upgrade the apt package list</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure><p>Install jenkins</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install jenkins</span><br></pre></td></tr></table></figure><p>After the installation is completed, we can use the ‘systemctl status’ to check the status of service running</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl status jenkins</span><br></pre></td></tr></table></figure><p>The system displays information similar to the following</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">● jenkins.service - LSB: Start Jenkins at boot time</span><br><span class="line">     Loaded: loaded (/etc/init.d/jenkins; generated)</span><br><span class="line">     Active: active (exited) since Sun 2022-01-16 11:08:29 CST; 33s ago</span><br><span class="line">       Docs: man:systemd-sysv-generator(8)</span><br><span class="line">      Tasks: 0 (<span class="built_in">limit</span>: 2269)</span><br><span class="line">     Memory: 0B</span><br><span class="line">     CGroup: /system.slice/jenkins.service</span><br></pre></td></tr></table></figure><p>The above steps complete the installation of jenkins. How to configue the jenkins can refer to other articles.</p><p>The initial password is stored in /var/lib/jenkins/secrets/initialAdminPassword.</p><p>Log file is /var/log/jenkins/jenkins.log.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This article demonstrates how to install the Jenkins server in Ubuntu 20.04.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://www.mls-tech.info/categories/linux/"/>
-    
     
   </entry>
   
