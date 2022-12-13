@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.mls-tech.info/microservice/k8s/kubernetes-cka-preparation-01/</loc>
-    <lastmod>2022-12-12</lastmod>
+    <loc>https://www.mls-tech.info/microservice/k8s/kubernetes-cka-preparation-02-scale-app/</loc>
+    <lastmod>2022-12-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/microservice/k8s/kubernetes-cka-preparation-01-deploy-app/</loc>
+    <lastmod>2022-12-13</lastmod>
   </url>
   <url>
     <loc>https://www.mls-tech.info/ceph/ceph-setup-single-node-cluster-on-centos-vmware/</loc>
@@ -457,15 +461,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-eslint-no-console/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-learn-path/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/web/vue/vue-component-user-defined-event/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/vue/vue-eslint-no-console/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -477,15 +477,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-use-bootstrap/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/web/vue/vue-router-interceptor/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-install-vue-cli-on-win10/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -493,7 +485,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-use-es6-module/</loc>
+    <loc>https://www.mls-tech.info/web/vue/vue-learn-path/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/vue/vue-install-vue-cli-on-win10/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/vue/vue-use-bootstrap/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/vue/vue-use-router/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -501,7 +505,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-use-router/</loc>
+    <loc>https://www.mls-tech.info/web/vue/vue-use-es6-module/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -529,15 +533,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-with-yarn/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/javascript/javascript-some-equals/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-component-lifecycle/</loc>
+    <loc>https://www.mls-tech.info/web/h5/css-animation-1/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -545,19 +541,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-access-rest-with-axios/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/h5/css-animation-1/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/vue/vue-component-params/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/web/h5/h5-basic-1/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/angular/angular-with-yarn/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -565,11 +553,23 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/web/vue/vue-component-params/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/vue/vue-access-rest-with-axios/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/javascript/javascript-some-equals/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/web/javascript/javascript-about-this/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-5/</loc>
+    <loc>https://www.mls-tech.info/web/vue/vue-component-lifecycle/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -577,11 +577,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-6/</loc>
+    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-4/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-all/</loc>
+    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-5/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-6/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -593,19 +597,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-4/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/web/angular/angular-typescript-decorator-2/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-typescript-version-error/</loc>
+    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual/</loc>
+    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-all/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -621,7 +621,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/web/angular/angular-typescript-version-error/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/web/angular/angular-websocket/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/weapp/wegame-getting-start-01/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -633,15 +641,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/wegame-getting-start-01/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/weapp/wegame-getting-start-04/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-component-input/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -653,6 +653,18 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/web/angular/angular-component-input/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/angular/angular-content-projection/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/web/angular/angular-content-projection2/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/web/angular/angular-httpclient-error-handle/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -661,7 +673,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-2/</loc>
+    <loc>https://www.mls-tech.info/web/angular/angular-httpclient-result-type/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -669,15 +681,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-content-projection/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-httpclient-result-type/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/web/angular/angular-content-projection2/</loc>
+    <loc>https://www.mls-tech.info/web/angular/angular-practice-manual-2/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -697,7 +701,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-cloud-development-4/</loc>
+    <loc>https://www.mls-tech.info/weapp/weapp-scan-barcode/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -709,6 +713,10 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/weapp/weapp-vant-dialog-backend-color/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/weapp/weapp-vant-external-class/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -717,7 +725,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-weui-wxss-setup/</loc>
+    <loc>https://www.mls-tech.info/weapp/weapp-widget-tabbar-2/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -725,15 +733,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-scan-barcode/</loc>
+    <loc>https://www.mls-tech.info/weapp/weapp-cloud-development-4/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-vant-dialog-backend-color/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-widget-tabbar-2/</loc>
+    <loc>https://www.mls-tech.info/weapp/weapp-weui-wxss-setup/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -742,10 +746,6 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/spark/spark-java-starter/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/spark/spark-setup-on-win10/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -765,7 +765,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-cloud-client-db-api/</loc>
+    <loc>https://www.mls-tech.info/spark/spark-setup-on-win10/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -773,7 +773,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-cloud-development-3/</loc>
+    <loc>https://www.mls-tech.info/weapp/weapp-cloud-client-db-api/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/weapp/weapp-cloud-development-2/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -781,7 +785,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/weapp/weapp-cloud-development-2/</loc>
+    <loc>https://www.mls-tech.info/weapp/weapp-cloud-development-3/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -793,7 +797,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/redis/redis-setup-sentinel/</loc>
+    <loc>https://www.mls-tech.info/redis/redis-setup-cluster/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/redis/redis-setup-master-slave/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -801,11 +809,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/redis/redis-setup-cluster/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/redis/redis-setup-master-slave/</loc>
+    <loc>https://www.mls-tech.info/redis/redis-setup-sentinel/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -821,15 +825,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/python/python-pssecurity-exception/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/python/python-pandas-version/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/spark/spark-cluster-on-docker-1/</loc>
+    <loc>https://www.mls-tech.info/python/python-pssecurity-exception/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -837,7 +837,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/python/python-algorithm-max-common-divisor/</loc>
+    <loc>https://www.mls-tech.info/spark/spark-cluster-on-docker-1/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -850,6 +850,10 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/python/python-data-analysis-environment/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/python/python-algorithm-max-common-divisor/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -869,11 +873,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/python/python-logging-module/</loc>
+    <loc>https://www.mls-tech.info/python/python-local-source/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/python/python-local-source/</loc>
+    <loc>https://www.mls-tech.info/python/python-logging-module/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -893,7 +897,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/node/hapi-practise-manual-05/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/node/hapi-practise-manual-06/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/node/hapi-practise-manual-07/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -901,11 +913,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/node/node-nrm-switch-registry/</loc>
+    <loc>https://www.mls-tech.info/node/node-practise-manual-01/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/node/hapi-practise-manual-07/</loc>
+    <loc>https://www.mls-tech.info/node/node-nrm-switch-registry/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -925,14 +937,6 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/node/node-practise-manual-01/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/node/hapi-practise-manual-05/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/node/node-practise-manual-06/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -941,19 +945,23 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-01/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/nginx/nginx-install-from-source-on-alpine/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-04/</loc>
+    <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-02/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
     <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-03/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-04/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -965,14 +973,6 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/nginx/nginx-setup-proxy-02/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-05/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-with-nacos/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -981,11 +981,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-06/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-02/</loc>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-05/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -993,7 +989,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-02/</loc>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-02/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1001,15 +997,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-06/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-07/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-03/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-04/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1017,27 +1009,23 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-03/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-sleuth-zipkin/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-03/</loc>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-02/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-06/</loc>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-03/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-05/</loc>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-tx-lcn-practise-manual-04/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-04/</loc>
+    <loc>https://www.mls-tech.info/microservice/spring-cloud/springcloud-practise-manual-03/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1046,6 +1034,22 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-mannual-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-04/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-05/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-06/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/microservice/service-comb/servicecomb-practise-manual-03/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1065,15 +1069,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/elasticsearch/es-java-high-level-api-01/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/microservice/elasticsearch/es-kibana-setup-on-mac-os/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/microservice/k3s/k3s-practise-manual-02/</loc>
+    <loc>https://www.mls-tech.info/microservice/elasticsearch/es-java-high-level-api-01/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1082,6 +1082,10 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/microservice/k3s/k3s-practise-manual-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/microservice/k3s/k3s-practise-manual-02/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1097,10 +1101,6 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-nfs-client/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/linux/ubuntu-18-setup-gitea/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -1109,7 +1109,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-setup-transmission/</loc>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-nfs-client/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1117,27 +1117,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-static-ip/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-vscode-cplus/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-install-mysql/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/linux/ubuntu-18-setup-ssh-key-login/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-setup-tomcat/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-on-win10-wls/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1145,7 +1125,31 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-vscode-cplus/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-static-ip/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-setup-transmission/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/linux/ubuntu-desktop-on-hyperv/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/ubuntu-install-mysql/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/ubuntu-on-win10-wls/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-setup-tomcat/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1153,23 +1157,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/linux/linux-mount-nfs/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/linux-mint-install-dotnet-core/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/linux-use-bmon/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/linux/linux-lookup-version/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/linux/nas-enable-mariadb-remote-access/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1177,11 +1165,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-mount-cdrom/</loc>
+    <loc>https://www.mls-tech.info/linux/linux-mount-nfs/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/linux/ubuntu-18-modify-hostname/</loc>
+    <loc>https://www.mls-tech.info/linux/linux-use-bmon/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/nas-enable-mariadb-remote-access/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/linux/linux-mint-install-dotnet-core/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1189,11 +1185,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/vertx-practice-manual-4/</loc>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-modify-hostname/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/vertx-web-upload-file/</loc>
+    <loc>https://www.mls-tech.info/linux/ubuntu-18-mount-cdrom/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/vertx-practice-manual-4/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1201,19 +1201,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/java/vertx-web-upload-file/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-with-freemarker/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/java/springboot-use-testing/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-webflux-practice-01/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springmvc-thymeleaf-utf8/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springmvc-thymeleaf-mannual-02/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1221,7 +1217,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-with-freemarker/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-webflux-practice-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springmvc-thymeleaf-mannual-02/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/tomcat7-in-idea-community/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springmvc-thymeleaf-utf8/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1230,10 +1238,6 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/java/vertx-practice-manual-1/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/tomcat7-in-idea-community/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1249,6 +1253,14 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/java/springboot-use-admin-ui/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-set-port-on-cmdline/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/java/springboot-setup-log-simple/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -1261,11 +1273,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-use-admin-ui/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-set-port-on-cmdline/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-use-filter/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1273,19 +1281,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-use-grpc/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-use-filter/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/java/springboot-use-grpc-03/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-use-profile/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-use-grpc/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1297,7 +1297,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-jpa-query-mulit-table-1/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-use-profile/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1313,19 +1313,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-practice-manul-2/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-practice-manul-3/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/java/springboot-practice-manul-4/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-practice-manul-5/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1333,7 +1321,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-rest-template/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-practice-manul-5/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-practice-manul-2/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1341,15 +1333,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-access-yaml-value/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-jpa-query-mulit-table-1/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-annotations-01/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-rest-template/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-aysnc-or-scheduled-task/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-practice-manul-3/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1357,15 +1349,35 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/java/springboot-annotations-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-annotations-02/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-aysnc-or-scheduled-task/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-dont-startup-web/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/springboot-external-config-file/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/java/springboot-handle-cross-origin/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-header-rest-template/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-handle-datetime-param/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-handle-datetime-param/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-header-rest-template/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1377,23 +1389,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/java/springboot-access-yaml-value/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/java/springboot-hot-reload/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-annotations-02/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-external-config-file/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/springboot-dont-startup-web/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/java-maven-access-remote-snapshot/</loc>
+    <loc>https://www.mls-tech.info/java/java-maven-cn-mirrors/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1401,7 +1405,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/java-maven-sdk8/</loc>
+    <loc>https://www.mls-tech.info/java/java-maven-dependency-scope/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1409,7 +1413,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/java-maven-dependency-scope/</loc>
+    <loc>https://www.mls-tech.info/java/java-maven-sdk8/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1421,19 +1425,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/spingboot-run-jsp/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/java/java8-access-rabbitmq-mannual-02/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/java-maven-cn-mirrors/</loc>
+    <loc>https://www.mls-tech.info/java/springboot-access-elasticsearch/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/springboot-access-elasticsearch/</loc>
+    <loc>https://www.mls-tech.info/java/java-maven-access-remote-snapshot/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/spingboot-run-jsp/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1461,10 +1465,6 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/java-gradle-cn-mirrors/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/java/java-get-resource-path/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -1473,11 +1473,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/java-grails-log-file/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/java-get-ip-port-in-servlet/</loc>
+    <loc>https://www.mls-tech.info/java/java-gradle-cn-mirrors/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1485,15 +1481,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/compile-openjdk8-in-ubuntu/</loc>
+    <loc>https://www.mls-tech.info/java/java-get-ip-port-in-servlet/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/java/eclipse-favorites-config-plugins/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/java/eclipse-maven-dependency-jdk-tools-jar-error/</loc>
+    <loc>https://www.mls-tech.info/java/java-grails-log-file/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1521,15 +1513,27 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/iot/java-coap-practice-02/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/iot/java-coap-practice-01/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/iot/java-coap-practice-02/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/iot/java-mqtt-practice-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/compile-openjdk8-in-ubuntu/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/eclipse-maven-dependency-jdk-tools-jar-error/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/java/eclipse-favorites-config-plugins/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1541,11 +1545,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/hexo/hexo-use-internal-link/</loc>
+    <loc>https://www.mls-tech.info/hexo/hexo-setup-on-zeit/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/hexo/hexo-setup-on-zeit/</loc>
+    <loc>https://www.mls-tech.info/hexo/hexo-use-internal-link/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1557,15 +1561,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-2/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-1/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-5/</loc>
+    <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-2/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-3/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1577,11 +1581,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-5/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/iot/esp8266-add-mqtt/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/iot/azure-iot-practice-manual-3/</loc>
+    <loc>https://www.mls-tech.info/hexo/blog-support-amp/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1593,39 +1601,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/hexo/blog-support-amp/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/health/tai-chi-20200315/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200412/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200424/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200409/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200905/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200529/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20201222/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200329/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1633,11 +1609,31 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190811/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200329/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190812/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200424/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200529/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200905/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200412/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20201222/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200409/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1645,7 +1641,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190811/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/health/tai-chi-20190813/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190812/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1653,11 +1657,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190822/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190829/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20191117/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190822/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1665,19 +1669,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190829/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200308/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200223/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20200301/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20191117/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1685,23 +1677,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200301/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200308/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/health/tai-chi-20191124/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190726/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190730/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190728/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190731/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20200223/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1709,31 +1697,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190803/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190728/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190804/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190805/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190806/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190809/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190807/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190808/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190730/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1745,7 +1713,43 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190731/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190726/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/health/tai-chi-20190801/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190803/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190806/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190804/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190805/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190807/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190809/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190808/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1753,11 +1757,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190714/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190713/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190717/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190714/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1765,31 +1769,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190720/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190719/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190713/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190721/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190723/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190724/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190722/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190717/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1797,15 +1777,43 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190725/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/health/tai-chi-20190718/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190719/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190721/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190720/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190722/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190725/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190724/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190723/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/golang/go-use-modules/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190629/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1821,6 +1829,10 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190706/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/health/tai-chi-20190703/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -1829,15 +1841,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190706/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190709/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190711/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190707/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1845,7 +1849,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190629/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190709/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1853,19 +1857,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/health/tai-chi-20190707/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/golang/go-defer-statement/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/golang/go-has-json-tag-but-is-not-exported/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/golang/go-loop-statement/</loc>
+    <loc>https://www.mls-tech.info/health/tai-chi-20190711/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1873,11 +1865,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/golang/go-quick-start-1/</loc>
+    <loc>https://www.mls-tech.info/golang/go-defer-statement/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/golang/go-no-new-variables-on-left-side/</loc>
+    <loc>https://www.mls-tech.info/golang/go-gin-rest-practice-manual-01/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/golang/go-has-json-tag-but-is-not-exported/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1885,7 +1881,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/golang/go-quick-start-2/</loc>
+    <loc>https://www.mls-tech.info/golang/go-loop-statement/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1893,7 +1889,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/golang/go-gin-rest-practice-manual-01/</loc>
+    <loc>https://www.mls-tech.info/golang/go-quick-start-1/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/golang/go-quick-start-2/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/golang/go-no-new-variables-on-left-side/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1913,7 +1917,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/fund/fund-schedule-20160706/</loc>
+    <loc>https://www.mls-tech.info/fund/fund-schedule-20160712/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1921,19 +1925,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/git/git-create-remote-repos/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/git/git-common-operation-2/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/fund/fund-schedule-20160712/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/git/git-find-remote-info/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1941,11 +1933,27 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/git/git-self-signed-cert/</loc>
+    <loc>https://www.mls-tech.info/git/git-create-remote-repos/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/git/git-find-remote-info/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
     <loc>https://www.mls-tech.info/git/git-remove-from-cache/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/git/git-self-signed-cert/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/fund/fund-schedule-20160706/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/dotnet/aspnet-core-upload-file/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1954,10 +1962,6 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/dotnet/dotnet-core-deploy-methods/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/dotnet/aspnet-core-upload-file/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1981,7 +1985,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/fund/fund-schedule-20160629/</loc>
+    <loc>https://www.mls-tech.info/fund/fund-schedule-20160702/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -1989,11 +1993,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/fund/fund-schedule-20160702/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/dotnet/abp-practice-manual-1/</loc>
+    <loc>https://www.mls-tech.info/fund/fund-schedule-20160629/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2005,15 +2005,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/dotnet/abp-practice-manual-1/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/dotnet/aspnet-core-do-not-redirect-ssl/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/dotnet/aspnet-core-enable-static-res/</loc>
+    <loc>https://www.mls-tech.info/dotnet/aspnet-core-practice-manual-1/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/dotnet/aspnet-core-practice-manual-1/</loc>
+    <loc>https://www.mls-tech.info/dotnet/aspnet-core-enable-static-res/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2029,23 +2033,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-use-nacos/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/docker/docker-use-rabbitmq/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/docker/k8s-deployment-app/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/docker/k8s-deployment-app-with-yaml/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/docker/microk8s-on-ubuntu1804/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2053,11 +2041,23 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/docker/k8s-deployment-app-with-yaml/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/docker/k8s-deployment-app/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/docker/k8s-installation-on-ubuntu1804/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-practice-manual-2/</loc>
+    <loc>https://www.mls-tech.info/docker/microk8s-on-ubuntu1804/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/docker/docker-use-nacos/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2065,11 +2065,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-practice-manual-5/</loc>
+    <loc>https://www.mls-tech.info/docker/docker-practice-manual-4/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-springboot-build-error-1/</loc>
+    <loc>https://www.mls-tech.info/docker/docker-practice-manual-5/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2077,15 +2077,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-use-local-mirrors/</loc>
+    <loc>https://www.mls-tech.info/docker/docker-springboot-build-error-1/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
     <loc>https://www.mls-tech.info/docker/docker-use-mongodb/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/docker/docker-practice-manual-4/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2097,11 +2093,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-compose-jenkins-python-django/</loc>
+    <loc>https://www.mls-tech.info/docker/docker-practice-manual-2/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/docker/docker-use-local-mirrors/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
     <loc>https://www.mls-tech.info/docker/docker-compose-use-jenkins/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/docker/docker-compose-jenkins-python-django/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2133,19 +2137,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/cplus/cplus_detect_prime/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/cplus/cplus_selection_sort/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/cplus/cplus_bubble_sort/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/cplus/cplus_insertion_sort/</loc>
+    <loc>https://www.mls-tech.info/cplus/cplus_detect_prime/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2153,7 +2149,15 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/cplus/cplus_insertion_sort/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/docker/docker-build-nginx-from-src/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/docker/docker-build-tomcat-image/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2161,7 +2165,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/docker/docker-build-tomcat-image/</loc>
+    <loc>https://www.mls-tech.info/cplus/cplus_bubble_sort/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2181,11 +2185,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/flutter/flutter-widget-bottomnavigationbar/</loc>
+    <loc>https://www.mls-tech.info/app/flutter/flutter-widget-tabcontroller/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/flutter/flutter-widget-tabcontroller/</loc>
+    <loc>https://www.mls-tech.info/app/flutter/flutter-widget-bottomnavigationbar/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2193,23 +2197,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/dart/dart-development-environment-mac/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/app/dart/dart-development-environment-windows/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/app/android/android-widget-recyclerview-1/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/app/flutter/flutter-development-environment-win/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/app/flutter/flutter-hello-world/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2221,11 +2209,19 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-voice-recognition/</loc>
+    <loc>https://www.mls-tech.info/app/dart/dart-development-environment-mac/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-use-viewbinding/</loc>
+    <loc>https://www.mls-tech.info/app/flutter/flutter-hello-world/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/flutter/flutter-development-environment-win/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/dart/dart-development-environment-windows/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2233,7 +2229,23 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/app/android/android-voice-recognition/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/app/android/android-widget-checkbox/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/android/android-use-viewbinding/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/android/android-widget-custom-toast/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/android/android-widget-custom-listview/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2249,23 +2261,11 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-widget-custom-toast/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/app/android/android-widget-custom-listview/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/app/android/android-rest-api-with-aysnchttpclient/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/app/android/android-receive-sms/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-room-database/</loc>
+    <loc>https://www.mls-tech.info/app/android/android-rest-api-with-aysnchttpclient/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2277,10 +2277,6 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-use-camera-with-intent/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.mls-tech.info/app/android/android-use-camera-with-camera2-api/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -2289,15 +2285,27 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
+    <loc>https://www.mls-tech.info/app/android/android-use-camera-with-intent/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/android/android-room-database/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mls-tech.info/app/android/android-bind-with-annotation/</loc>
+    <lastmod>2021-04-16</lastmod>
+  </url>
+  <url>
     <loc>https://www.mls-tech.info/app/android/android-config-lombok/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-constraint-layout/</loc>
+    <loc>https://www.mls-tech.info/app/android/android-db-sqlite/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-db-sqlite/</loc>
+    <loc>https://www.mls-tech.info/app/android/android-constraint-layout/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2306,10 +2314,6 @@
   </url>
   <url>
     <loc>https://www.mls-tech.info/app/android/android-get-device-id/</loc>
-    <lastmod>2021-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mls-tech.info/app/android/android-intent-and-filter/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
@@ -2325,7 +2329,7 @@
     <lastmod>2021-04-16</lastmod>
   </url>
   <url>
-    <loc>https://www.mls-tech.info/app/android/android-bind-with-annotation/</loc>
+    <loc>https://www.mls-tech.info/app/android/android-intent-and-filter/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
 </urlset> 
